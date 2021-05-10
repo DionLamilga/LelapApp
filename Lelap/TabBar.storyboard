@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ULg-dy-cJa">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main-->
+        <scene sceneID="VAr-dr-3Zg">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="6Cm-Tl-KDW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Music" image="music.house.fill" catalog="system" id="6iB-6f-WXb"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GU2-OH-ndg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1204" y="250"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="hxU-o4-W3B">
+            <objects>
+                <tabBarController id="ULg-dy-cJa" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="kFQ-IJ-hva">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="linkColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="6Cm-Tl-KDW" kind="relationship" relationship="viewControllers" id="JQz-10-j96"/>
+                        <segue destination="4nm-qC-vec" kind="relationship" relationship="viewControllers" id="qiw-qI-ppM"/>
+                        <segue destination="21J-ev-L4f" kind="relationship" relationship="viewControllers" id="jI7-y6-q41"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EUZ-JS-EUd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-323" y="-275"/>
+        </scene>
+        <!--NotesPages-->
+        <scene sceneID="AnN-fN-Xg9">
+            <objects>
+                <viewControllerPlaceholder storyboardName="NotesPages" id="4nm-qC-vec" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Journal" image="note" catalog="system" id="j2F-Ot-Kms"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hVr-7n-kvc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-36" y="242"/>
+        </scene>
+        <!--Tips-->
+        <scene sceneID="Lfj-bf-LgB">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Tips" id="21J-ev-L4f" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="e2H-Wv-iav"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ui9-7F-35Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="451" y="213"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="music.house.fill" catalog="system" width="128" height="106"/>
+        <image name="note" catalog="system" width="128" height="106"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

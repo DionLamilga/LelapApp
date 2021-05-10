@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ThirdTipsTableViewCell" rowHeight="637" id="KGk-i7-Jjw" customClass="ThirdTipsTableViewCell" customModule="Lelap" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="637"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="637"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qbs-d0-zpj">
+                        <rect key="frame" x="0.0" y="69" width="390" height="551"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <string key="text">Metode ini membuat otot-otot tubuh relaks sehingga bisa tidur lelap dengan mudah. Agar hasilnya lebih optimal, awali dengan metode pernapasan 4-7-8 di atas, kemudian lakukan ini:  1. Naikkan kedua alis setinggi mungkin selama 5 detik. Ini akan mengencangkan otot dahi Anda.
+
+2. Lemaskan otot-otot dahi Anda dan rasakan tekanannya melemas. Tunggu hingga 10 detik.
+
+3. Senyum selebar mungkin agar otot-otot sekitar mulut tegang, tahan 5 detik, kemudian relaks.
+
+4. Berhenti selama 10 detik.
+
+5. Menyipitkan kedua mata tertutup, tahan 5 detik, dan relaks.
+
+6. Berhenti selama 10 detik.
+
+7. Tengadahkan kepala seperti sedang memandangi bintang, tahan 5 detik, relaks sambil mulai merebahkan leher ke bantal.
+
+8. Berhenti 10 detik.
+
+9. Lanjutkan relaksasi di seluruh tubuh, mulai dari trisep ke dada, hingga paha ke ujung kaki.
+
+10. Biarkan tubuh melemas dan bahkan tertidur, walau belum menyelesaikan relaksasi hingga ujung kaki.</string>
+                        <color key="textColor" systemColor="labelColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PMR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8d-Zk-acz">
+                        <rect key="frame" x="3" y="20" width="59" height="33"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="textView" destination="qbs-d0-zpj" id="Krh-p1-gb7"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="319.75446428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
